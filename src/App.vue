@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <div class="navbar navbar-dark bg-primary">
-      <a href="#" class="navbar-brand">Firebase Auth</a>
+      <a href="#" class="navbar-brand">Firebase Authentification</a>
       <ul class="nav">
         <li class="nav-item pr-4">
-          <router-link class="text-white" to="/">Home</router-link>
+          <router-link class="text-white" to="/">Accueil</router-link>
         </li>
         <li class="nav-item pr-4">
-          <router-link class="text-white" to="/about">About</router-link>
+          <router-link class="text-white" to="/about">A Propos</router-link>
         </li>
         <li class="nav-item pr-4">
-          <router-link class="text-white" to="/member-area">Member Area</router-link>
+          <router-link class="text-white" to="/member-area">Equipe</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="text-white" to="/login">Login</router-link>
+          <router-link class="text-white" to="/login">Connexion</router-link>
         </li>
       </ul>
     </div>
@@ -23,25 +23,18 @@
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<style scoped>
+
+ul li a{
+  text-decoration: none;
+}
+ul li a:hover{
+  color: crimson;
 }
 
 #nav {
   padding: 30px;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>

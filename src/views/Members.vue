@@ -1,7 +1,7 @@
 <template>
   <div class="row">
-      <div class="col-sm-12">
-          <h2>Member Area</h2>
+      <div class="col-sm-12 text-center">
+          <h2>Membres de l'équipe</h2>
       </div>
   </div>
 </template>
