@@ -22,7 +22,7 @@
                         </button>
                     </div>
                     <div class="col-sm-12 form-group mb-5">
-                        <p>Vous avez déjà un compte? <router-link to="/login">Connectez-vous</router-link></p>
+                        <p>Vous avez déjà un compte? <router-link to="/">Connectez-vous</router-link></p>
                     </div>
               </div>
           </form>
