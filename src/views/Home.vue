@@ -1,5 +1,6 @@
 <template>
-  <div class="home">
+  <div class="home text-center">
+    <h1>Vous êtes connecté</h1>
   </div>
 </template>
 

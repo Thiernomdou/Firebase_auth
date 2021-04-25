@@ -4,7 +4,7 @@
       <a href="#" class="navbar-brand">Firebase Authentification</a>
       <ul class="nav">
         <li class="nav-item pr-4">
-          <router-link class="text-white" to="/">Accueil</router-link>
+          <router-link class="text-white" to="/home">Accueil</router-link>
         </li>
         <li class="nav-item pr-4">
           <router-link class="text-white" to="/about">A Propos</router-link>
@@ -13,7 +13,7 @@
           <router-link class="text-white" to="/member-area">Equipe</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="text-white" to="/login">Connexion</router-link>
+          <router-link class="text-white" to="/">Connexion</router-link>
         </li>
       </ul>
     </div>

@@ -46,7 +46,7 @@ export default {
             firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(
                 () => {
                     this.xhrRequest = false;
-                    this.$router.replace('member-area');
+                    this.$router.replace('home');
                 },
                 (err) => {
                     this.xhrRequest = false;
